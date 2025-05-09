@@ -1,0 +1,25 @@
+{
+  "name": "bluesdriver",
+  "version": "1.0.0",
+  "description": "# This is the repo for the front end web for the blog/magazine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzoalo/bluesdriver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonzoalo/bluesdriver/issues"
+  },
+  "homepage": "https://github.com/gonzoalo/bluesdriver#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
