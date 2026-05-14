@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  database:
+    image: 'postgres:latest'
+    ports: 
+    - 5433:5432
+
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=pass
+      - POSTGRES_DB=bluesdriverdb
+  server:
+    depends_on:
+      - database
+    build: .
+    ports:
+      - "3001:3000"
+
